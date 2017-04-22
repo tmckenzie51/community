@@ -1,0 +1,100 @@
+header{
+  display:block;
+}
+
+#cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+  background-size: cover;
+  height:500px;
+}
+
+#cover h1{
+  width: 780px;
+  font-family: Roboto Slab,serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+#profilePic {
+  display:block;
+  border-radius:100%;
+  width:100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-50px;
+  border-color: white;
+}
+
+#profileInfo{
+  height: 24px;
+  display: block;
+  text-align: center;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.drinkHeading{
+  font-family: Roboto Slab, serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#number{
+  position: relative;
+  left: -40px;
+  color:rgba(0, 0, 0, 0.25);
+}
+
+#title{
+  color:rgb(51, 51, 51);
+}
+
+#flexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.drinkInfo{
+  width: 66.7%;
+}
+
+#mapLink{
+  cursor:pointer;
+  color:  #42b4d6;
+  text-decoration: none;
+}
+
+#mapLink:hover{
+  text-decoration: underline;
+}
+
+.drinkInfo p{
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  color:rgb(51, 51, 51);
+  margin-top: 20px;
+  display: inline-block;
+  height: 32px;
+}
+
+#recommendation{
+  margin-top: 20px;
+}
+
+section div img{
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
